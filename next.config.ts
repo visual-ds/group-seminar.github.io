@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/seminar-visualds.github.io',
 };
 
 export default nextConfig;
