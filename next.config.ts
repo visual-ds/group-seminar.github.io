@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',  // Importante para generar archivos estáticos
+  reactStrictMode: true,
   images: {
-    unoptimized: true, // Necesario para exportación estática
+    unoptimized: true,
   },
-  swcMinify: false,
 };
 
 export default nextConfig;

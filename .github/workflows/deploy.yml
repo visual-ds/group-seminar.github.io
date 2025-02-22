@@ -1,4 +1,4 @@
-name: Deploy Next.js site to Pages
+name: Deploy Next.js site to GitHub Pages
 
 on:
   push:
@@ -29,17 +29,16 @@ jobs:
       - name: Install dependencies
         run: |
           npm ci
-          npm install sharp  # Importante para el manejo de imágenes
-          
+          npm install sharp  # Importante para imágenes
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
       - name: Build with Next.js
-        run: npm run build
-        
-      - name: Create .nojekyll file
-        run: touch out/.nojekyll
-        
+        run: |
+          npm run build
+          touch out/.nojekyll  # Evita que GitHub Pages ignore archivos _next
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
