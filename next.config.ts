@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
   images: {
     unoptimized: true,
   },
-  basePath: '/seminar-visualds.github.io',
+  distDir: 'out',
 };
 
 export default nextConfig;
