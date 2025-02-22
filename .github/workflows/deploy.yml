@@ -35,7 +35,9 @@ jobs:
         uses: actions/configure-pages@v4
         
       - name: Build with Next.js
-        run: npm deploy
+        run: |
+          npm run build
+          touch out/.nojekyll 
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
