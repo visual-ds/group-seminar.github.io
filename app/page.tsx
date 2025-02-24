@@ -22,7 +22,9 @@ export default function Home() {
   const shouldShowToggle = (text: string) => {
     return text.length > 10
   }
-  
+
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "https://visual-ds.github.io/group-seminar.github.io/";
+  console.log("base Path", basePath);
 
   return (
     <div className="max-w-7xl mx-auto text-gray-800 p-4">
@@ -60,7 +62,7 @@ export default function Home() {
             key={index}
             className="flex gap-6 items-start text-sm border rounded-lg p-4 mb-4 bg-white shadow"
           >
-            <img src={talk.image} className="rounded-full w-40 h-40" />
+            <img src={`${basePath}/${talk.image}`} className="rounded-full w-40 h-40" />
             <div className="flex flex-col gap-2">
               <h3 className="font-bold md:text-lg text-xs">{talk.topic}</h3>
               <p className="italic md:text-md text-xs">
