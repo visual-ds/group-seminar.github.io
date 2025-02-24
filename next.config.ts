@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/seminar-visualds.github.io',
+  basePath: '/group-seminar.github.io',
   trailingSlash: true,
 };
 
