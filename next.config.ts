@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: '/group-seminar.github.io',
+  assetPrefix: '/group-seminar.github.io',
   trailingSlash: true,
 };
 
