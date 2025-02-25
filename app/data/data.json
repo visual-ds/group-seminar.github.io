@@ -10,7 +10,12 @@
         "topic": "Safeguarding Large Language Models in Real-time with Tunable Safety-Performance Trade-offs",
         "image": "/images/maurodiaz.jpg",
         "advisor": "Jorge Poco",
-        "description": "Large Language Models (LLMs) have been shown to be susceptible to jailbreak attacks, or adversarial attacks used to illicit high risk behavior from a model. Jailbreaks have been exploited by cybercriminals and blackhat actors to cause significant harm, highlighting the critical need to safeguard widely-deployed models. Safeguarding approaches, which include fine-tuning models or having LLMs 'self-reflect', may lengthen the inference time of a model, incur a computational penalty, reduce the semantic fluency of an output, and restrict 'normal' model behavior. Importantly, these Safety-Performance Trade-offs (SPTs) remain an understudied area. In this work, we introduce a novel safeguard, called SafeNudge, that combines Controlled Text Generation with 'nudging,' or using text interventions to change the behavior of a model. SafeNudge triggers during text-generation while a jailbreak attack is being executed, and can reduce successful jailbreak attempts by 30% by guiding the LLM towards a safe response. It adds minimal latency to inference and has a negligible impact on the semantic fluency of outputs. Further, we allow for tunable SPTs. SafeNudge is open-source and available through https://pypi.org/, and is compatible with models loaded with the Hugging Face transformers library."
+        "description": "Large Language Models (LLMs) have been shown to be susceptible to jailbreak attacks, or adversarial attacks used to illicit high risk behavior from a model. Jailbreaks have been exploited by cybercriminals and blackhat actors to cause significant harm, highlighting the critical need to safeguard widely-deployed models. Safeguarding approaches, which include fine-tuning models or having LLMs 'self-reflect', may lengthen the inference time of a model, incur a computational penalty, reduce the semantic fluency of an output, and restrict 'normal' model behavior. Importantly, these Safety-Performance Trade-offs (SPTs) remain an understudied area. In this work, we introduce a novel safeguard, called SafeNudge, that combines Controlled Text Generation with 'nudging,' or using text interventions to change the behavior of a model. SafeNudge triggers during text-generation while a jailbreak attack is being executed, and can reduce successful jailbreak attempts by 30% by guiding the LLM towards a safe response. It adds minimal latency to inference and has a negligible impact on the semantic fluency of outputs. Further, we allow for tunable SPTs. SafeNudge is open-source and available through https://pypi.org/, and is compatible with models loaded with the Hugging Face transformers library.",
+        "email": "email@gmail.com",
+        "links": {
+          "recording": true,
+          "slides": true
+        }
       }
     },
     {
@@ -21,7 +26,12 @@
         "topic": "Understanding, Enhancing, and Augmenting Human Interaction through Adaptive Systems",
         "image": "/images/andresdelapuente.jpeg",
         "advisor": "Jorge Poco",
-        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains."
+        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains.",
+        "email": "email@gmail.com",
+        "links": {
+          "recording": true,
+          "slides": true
+        }
       }
     },
     {
@@ -32,7 +42,12 @@
         "topic": "Data Visualization for Large-Scale Text Data",
         "image": "/images/juanpabloheredia.png",
         "advisor": "Jorge Poco",
-        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains."
+        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains.",
+        "email": "email@gmail.com",
+        "links": {
+          "recording": true,
+          "slides": true
+        }
       }
     },
     {
@@ -43,89 +58,13 @@
         "topic": "Topic Modelling for Large-Scale Text Data",
         "image": "/images/felipemoreno.png",
         "advisor": "Jorge Poco",
-        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains."
+        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains.",
+        "email": "email@gmail.com",
+        "links": {
+          "recording": true,
+          "slides": true
+        }
       }
-    }
-  ],
-  "upcoming_events": [
-    {
-      "date": "Mar 21, 2025",
-      "time": "11:00 - 11:30",
-      "location": "Fundacao Getulio Vargas, Praia de Botafogo, 190, 5th floor, Rio de Janeiro, RJ, Brazil",
-      "speaker": "Juan Pablo Heredia",
-      "topic": "Topic Modelling for Large-Scale Text Data"
-    },
-    {
-      "date": "Mar 28, 2025",
-      "time": "11:30 - 12:00",
-      "location": "Fundacao Getulio Vargas, Praia de Botafogo, 190, 5th floor, Rio de Janeiro, RJ, Brazil",
-      "speaker": "",
-      "topic": ""
-    }
-  ],
-  "historical_events": [
-    {
-      "date": "Nov 6, 2024",
-      "presentations": [
-        {
-          "speaker": "Teal Witter",
-          "title": "Provably Accurate Estimators for Shapley Values",
-          "links": {
-            "recording": true,
-            "slides": true
-          }
-        },
-        {
-          "speaker": "Niv Cohen",
-          "title": "Discovering and Erasing Undesired Concepts",
-          "links": {
-            "recording": true,
-            "slides": true
-          }
-        }
-      ]
-    },
-    {
-      "date": "Nov 20, 2024",
-      "presentations": [
-        {
-          "speaker": "Alexander Ratzan",
-          "title": "Molecular Connectomics from Small to Large Brains",
-          "links": {
-            "recording": true,
-            "slides": true
-          }
-        },
-        {
-          "speaker": "Felipe Inagaki de Oliveira",
-          "title": "TopoMap++: A faster and more space efficient technique to compute projections with topological guarantees",
-          "links": {
-            "recording": true,
-            "slides": true
-          }
-        }
-      ]
-    },
-    {
-      "date": "Dec 4, 2024",
-      "presentations": [
-        {
-          "speaker": "Guande Wu",
-          "title": "Evaluating Collaborative Capabilities of Language Models",
-          "links": {
-            "recording": true,
-            "slides": true
-          }
-        },
-        {
-          "speaker": "Aécio Santos",
-          "title": "Sampling-Based Sketching Methods for Correlated Data Discovery",
-          "links": {
-            "recording": true,
-            "slides": true
-          }
-        }
-      ]
     }
   ]
 }

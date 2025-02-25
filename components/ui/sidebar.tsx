@@ -5,7 +5,7 @@ import { Slot } from "@radix-ui/react-slot"
 import { VariantProps, cva } from "class-variance-authority"
 
 import { useIsMobile } from "@/hooks/use-mobile"
-import { cn } from "@/lib/utils"
+import { basePath, cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Separator } from "@/components/ui/separator"
@@ -17,7 +17,6 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
-import Image from "next/image"
 
 const SIDEBAR_COOKIE_NAME = "sidebar_state"
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7
@@ -278,11 +277,11 @@ const SidebarTrigger = React.forwardRef<
       }}
       {...props}
     >
-      <Image
-        src="/panel-left-icon.svg"
+      <img
+        src={`${basePath}/panel-left-icon.svg`}
         alt="Panel Left Icon"
-        width={22}
-        height={22}
+        width={26}
+        height={26}
       />
       <span className="sr-only">Toggle Sidebar</span>
     </Button>

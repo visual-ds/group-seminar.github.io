@@ -11,7 +11,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { isFutureTalk, isRecentTalk } from "@/lib/utils";
+import { basePath, isFutureTalk, isRecentTalk } from "@/lib/utils";
 
 export default function Home() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -29,11 +29,6 @@ export default function Home() {
   const shouldShowToggle = (text: string) => {
     return text.length > 10;
   };
-
-  const basePath =
-    process.env.NEXT_PUBLIC_BASE_PATH ||
-    "https://visual-ds.github.io/group-seminar.github.io/";
-  console.log("base Path", basePath);
 
   return (
     <div className="max-w-7xl mx-auto text-gray-800 p-4">
