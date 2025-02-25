@@ -1,50 +1,66 @@
 {
   "title": "Visual Data Science Lab - Weekly Seminar",
-  "recent_talk": {
-    "date": "Wed, Dec 4, 2024",
-    "time": "11:00 - 12:00",
-    "location": "Room 1114, 370 Jay St OR Join Zoom Meeting",
-    "speakers": [
-      {
-        "name": "Mauro Diaz",
-        "topic": "Safeguarding Large Language Models in Real-time with Tunable Safety-Performance Trade-offs"
-      },
-      {
-        "name": "Andres de la Puente",
-        "topic": "Understanding, Enhancing, and Augmenting Human Interaction through Adaptive Systems"
-      }
-    ]
-  },
-  "talk_details": [
+  "location": "Fundacao Getulio Vargas, Praia de Botafogo, 190, 5th floor, Rio de Janeiro, RJ, Brazil",
+  "group_seminar": [
     {
-      "topic": "Safeguarding Large Language Models in Real-time with Tunable Safety-Performance Trade-offs",
-      "image": "/images/maurodiaz.jpg",
-      "speaker": "Andrew Bell",
-      "advisor": "Julia Stoyanovich",
-      "description": "Large Language Models (LLMs) have been shown to be susceptible to jailbreak attacks, or adversarial attacks used to illicit high risk behavior from a model. Jailbreaks have been exploited by cybercriminals and blackhat actors to cause significant harm, highlighting the critical need to safeguard widely-deployed models. Safeguarding approaches, which include fine-tuning models or having LLMs 'self-reflect', may lengthen the inference time of a model, incur a computational penalty, reduce the semantic fluency of an output, and restrict 'normal' model behavior. Importantly, these Safety-Performance Trade-offs (SPTs) remain an understudied area. In this work, we introduce a novel safeguard, called SafeNudge, that combines Controlled Text Generation with 'nudging,' or using text interventions to change the behavior of a model. SafeNudge triggers during text-generation while a jailbreak attack is being executed, and can reduce successful jailbreak attempts by 30% by guiding the LLM towards a safe response. It adds minimal latency to inference and has a negligible impact on the semantic fluency of outputs. Further, we allow for tunable SPTs. SafeNudge is open-source and available through https://pypi.org/, and is compatible with models loaded with the Hugging Face transformers library."
+      "date": "Mon, Feb 24, 2025",
+      "time": "11:00 - 12:00",
+      "speaker": {
+        "name": "Mauro Diaz",
+        "topic": "Safeguarding Large Language Models in Real-time with Tunable Safety-Performance Trade-offs",
+        "image": "/images/maurodiaz.jpg",
+        "advisor": "Jorge Poco",
+        "description": "Large Language Models (LLMs) have been shown to be susceptible to jailbreak attacks, or adversarial attacks used to illicit high risk behavior from a model. Jailbreaks have been exploited by cybercriminals and blackhat actors to cause significant harm, highlighting the critical need to safeguard widely-deployed models. Safeguarding approaches, which include fine-tuning models or having LLMs 'self-reflect', may lengthen the inference time of a model, incur a computational penalty, reduce the semantic fluency of an output, and restrict 'normal' model behavior. Importantly, these Safety-Performance Trade-offs (SPTs) remain an understudied area. In this work, we introduce a novel safeguard, called SafeNudge, that combines Controlled Text Generation with 'nudging,' or using text interventions to change the behavior of a model. SafeNudge triggers during text-generation while a jailbreak attack is being executed, and can reduce successful jailbreak attempts by 30% by guiding the LLM towards a safe response. It adds minimal latency to inference and has a negligible impact on the semantic fluency of outputs. Further, we allow for tunable SPTs. SafeNudge is open-source and available through https://pypi.org/, and is compatible with models loaded with the Hugging Face transformers library."
+      }
     },
     {
-      "topic": "Understanding, Enhancing, and Augmenting Human Interaction through Adaptive Systems",
-      "image": "/images/andresdelapuente.jpeg",
-      "speaker": "Jewelina Wen",
-      "advisor": "Claudio Silva",
-      "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains."
+      "date": "Tue, Feb 25, 2025",
+      "time": "11:00 - 12:00",
+      "speaker": {
+        "name": "Andres de la Puente",
+        "topic": "Understanding, Enhancing, and Augmenting Human Interaction through Adaptive Systems",
+        "image": "/images/andresdelapuente.jpeg",
+        "advisor": "Jorge Poco",
+        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains."
+      }
+    },
+    {
+      "date": "Wed, Feb 26, 2025",
+      "time": "11:00 - 12:00",
+      "speaker": {
+        "name": "Juan Pablo Heredia",
+        "topic": "Data Visualization for Large-Scale Text Data",
+        "image": "/images/juanpabloheredia.png",
+        "advisor": "Jorge Poco",
+        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains."
+      }
+    },
+    {
+      "date": "Thu, Feb 27, 2025",
+      "time": "11:00 - 12:00",
+      "speaker": {
+        "name": "Adrian Felipe Moreno",
+        "topic": "Topic Modelling for Large-Scale Text Data",
+        "image": "/images/felipemoreno.png",
+        "advisor": "Jorge Poco",
+        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains."
+      }
     }
   ],
   "upcoming_events": [
     {
-      "date": "Mar 12, 2025",
+      "date": "Mar 21, 2025",
       "time": "11:00 - 11:30",
-      "location": "Room 1114, 370 Jay St",
-      "speaker": "TBD",
+      "location": "Fundacao Getulio Vargas, Praia de Botafogo, 190, 5th floor, Rio de Janeiro, RJ, Brazil",
+      "speaker": "Juan Pablo Heredia",
       "topic": "Topic Modelling for Large-Scale Text Data"
     },
     {
-      "date": "Mar 12, 2025",
+      "date": "Mar 28, 2025",
       "time": "11:30 - 12:00",
-      "location": "Room 1114, 370 Jay St",
-      "speaker": "TBD",
-      "topic": "Data Visualization for Large-Scale Text Data"
+      "location": "Fundacao Getulio Vargas, Praia de Botafogo, 190, 5th floor, Rio de Janeiro, RJ, Brazil",
+      "speaker": "",
+      "topic": ""
     }
   ],
   "historical_events": [
