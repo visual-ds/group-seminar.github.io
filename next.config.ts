@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // basePath: '/group-seminar.github.io',
-  // assetPrefix: '/group-seminar.github.io',
+  basePath: '/group-seminar.github.io',
+  assetPrefix: '/group-seminar.github.io',
   trailingSlash: true,
 };
 
