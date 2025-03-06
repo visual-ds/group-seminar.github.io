@@ -11,16 +11,22 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { basePath, isFutureTalk, isRecentTalk } from "@/lib/utils";
+import { basePath, isFutureTalk, isRecentTalk, normalizeDate, Seminar } from "@/lib/utils";
 
 export default function Home() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const futureTalks = data.group_seminar.filter((seminar) =>
-    isFutureTalk(seminar.date)
+  const today = normalizeDate(new Date());
+
+  const sortedSeminars = [...data.group_seminar] as Seminar[];
+  sortedSeminars.sort((a, b) => normalizeDate(a.date) - normalizeDate(b.date));
+
+  const upcomingSeminars = sortedSeminars.filter(
+    seminar => normalizeDate(seminar.date) >= today
   );
-  const recentTalks = data.group_seminar.filter((seminar) =>
-    isRecentTalk(seminar.date)
-  );
+
+  const recentTalk = upcomingSeminars.length > 0 ? [upcomingSeminars[0]] : [];
+  const futureTalks = upcomingSeminars.slice(1);
+
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
@@ -34,7 +40,7 @@ export default function Home() {
     <div className="max-w-7xl mx-auto text-gray-800 p-4">
       <h1 className="text-4xl font-bold text-center py-6">{data.title}</h1>
       <>
-        {recentTalks.map((seminar, index) => (
+        {recentTalk.map((seminar, index) => (
           <div key={index}>
             {/* RECENT  TALKS*/}
             <div className="pb-8">
@@ -52,20 +58,17 @@ export default function Home() {
                   <strong>Location:</strong> {data.location}
                 </p>
                 <Separator />
-                {/*
-                      {seminar.speaker.map((speak, index) => (
-                      <div key={index}>
-                        <p className="py-2">
-                          <strong>Speaker {index + 1}:</strong> {speak.name} -{" "}
-                          {speak.topic}
-                        </p>
-                        <Separator />
-                      </div>
-                    ))}
-                    */}
+
+                {seminar.speaker.name.map((name) => (
+                  <>
+                    <p className="pb-2 pt-2">
+                      <strong>Speaker: </strong> {name}
+                    </p>
+                    <Separator />
+                  </>
+                ))}
                 <p className="py-2">
-                  <strong>Speaker {index + 1}:</strong> {seminar.speaker.name} -{" "}
-                  {seminar.speaker.topic}
+                  <strong>Topic: </strong> {seminar.speaker.topic}
                 </p>
                 <Separator />
               </div>
@@ -75,10 +78,16 @@ export default function Home() {
             <div className="pb-8">
               <h2 className="text-xl py-2 font-semibold">Talk Details</h2>
               <div className="flex gap-6 items-start text-sm border rounded-lg p-4 mb-4 bg-white shadow">
-                <img
-                  src={`${basePath}/${seminar.speaker.image}`}
-                  className="rounded-full w-40 h-40"
-                />
+                <div className="md:flex md:flex-row flex flex-col jus gap-x-4 gap-y-2 max-w-24 md:max-w-88 w-full">
+                  {seminar.speaker.image.map((img, index) => (
+                    <img
+                      key={index}
+                      src={`${basePath}/${img}`}
+                      className="rounded-full w-24 h-24 md:w-40 md:h-40 aspect-square object-cover"
+                      alt={`Speaker ${index + 1}`}
+                    />
+                  ))}
+                </div>
                 <div className="flex flex-col gap-2">
                   <h3 className="font-bold md:text-lg text-xs">
                     {seminar.speaker.topic}

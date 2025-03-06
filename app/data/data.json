@@ -3,15 +3,15 @@
   "location": "Fundacao Getulio Vargas, Praia de Botafogo, 190, 5th floor, Rio de Janeiro, RJ, Brazil",
   "group_seminar": [
     {
-      "date": "Mon, Feb 24, 2025",
-      "time": "11:00 - 12:00",
+      "date": "Fri, Mar 14, 2025",
+      "time": "9:00 - 10:00",
       "speaker": {
-        "name": "Mauro Diaz",
-        "topic": "Safeguarding Large Language Models in Real-time with Tunable Safety-Performance Trade-offs",
-        "image": "/images/maurodiaz.jpg",
+        "name": ["Pablo Calcina Ccori"],
+        "topic": "",
+        "image": ["/images/pablo.webp"],
         "advisor": "Jorge Poco",
-        "description": "Large Language Models (LLMs) have been shown to be susceptible to jailbreak attacks, or adversarial attacks used to illicit high risk behavior from a model. Jailbreaks have been exploited by cybercriminals and blackhat actors to cause significant harm, highlighting the critical need to safeguard widely-deployed models. Safeguarding approaches, which include fine-tuning models or having LLMs 'self-reflect', may lengthen the inference time of a model, incur a computational penalty, reduce the semantic fluency of an output, and restrict 'normal' model behavior. Importantly, these Safety-Performance Trade-offs (SPTs) remain an understudied area. In this work, we introduce a novel safeguard, called SafeNudge, that combines Controlled Text Generation with 'nudging,' or using text interventions to change the behavior of a model. SafeNudge triggers during text-generation while a jailbreak attack is being executed, and can reduce successful jailbreak attempts by 30% by guiding the LLM towards a safe response. It adds minimal latency to inference and has a negligible impact on the semantic fluency of outputs. Further, we allow for tunable SPTs. SafeNudge is open-source and available through https://pypi.org/, and is compatible with models loaded with the Hugging Face transformers library.",
-        "email": "email@gmail.com",
+        "description": "",
+        "email": ["pcalcina@gmail.com"],
         "links": {
           "recording": true,
           "slides": true
@@ -19,15 +19,15 @@
       }
     },
     {
-      "date": "Tue, Feb 25, 2025",
-      "time": "11:00 - 12:00",
+      "date": "Fri, Mar 21, 2025",
+      "time": "9:00 - 10:00",
       "speaker": {
-        "name": "Andres de la Puente",
-        "topic": "Understanding, Enhancing, and Augmenting Human Interaction through Adaptive Systems",
-        "image": "/images/andresdelapuente.jpeg",
+        "name": ["Andres de la Puente"],
+        "topic": "",
+        "image": ["/images/andresdelapuente.webp"],
         "advisor": "Jorge Poco",
-        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains.",
-        "email": "email@gmail.com",
+        "description": "",
+        "email": ["vdelapuentea@gmail.com"],
         "links": {
           "recording": true,
           "slides": true
@@ -35,15 +35,15 @@
       }
     },
     {
-      "date": "Wed, Feb 26, 2025",
-      "time": "11:00 - 12:00",
+      "date": "Fri, Mar 28, 2025",
+      "time": "9:00 - 10:00",
       "speaker": {
-        "name": "Juan Pablo Heredia",
-        "topic": "Data Visualization for Large-Scale Text Data",
-        "image": "/images/juanpabloheredia.png",
+        "name": ["Juanpablo Heredia"],
+        "topic": "",
+        "image": ["/images/juanpablo.webp"],
         "advisor": "Jorge Poco",
-        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains.",
-        "email": "email@gmail.com",
+        "description": "",
+        "email": ["jherediaparillo@gmail.com"],
         "links": {
           "recording": true,
           "slides": true
@@ -51,15 +51,159 @@
       }
     },
     {
-      "date": "Thu, Feb 27, 2025",
-      "time": "11:00 - 12:00",
+      "date": "Fri, Apr 04, 2025",
+      "time": "9:00 - 10:00",
       "speaker": {
-        "name": "Adrian Felipe Moreno",
-        "topic": "Topic Modelling for Large-Scale Text Data",
-        "image": "/images/felipemoreno.png",
+        "name": ["Felipe Adrián Moreno"],
+        "topic": "",
+        "image": ["/images/felipe.webp"],
         "advisor": "Jorge Poco",
-        "description": "By leveraging computational methods, physiological sensing, and AI-driven adaptation, I develop intelligent interfaces that dynamically respond to users’ cognitive and behavioral states, optimizing experience and performance in real time. My work spans aviation, driving assistance, healthcare, and gaming, demonstrating the impact of adaptive systems across diverse domains.",
-        "email": "email@gmail.com",
+        "description": "",
+        "email": ["felipe.moreno.vera@gmail.com"],
+        "links": {
+          "recording": true,
+          "slides": true
+        }
+      }
+    },
+    {
+      "date": "Fri, Apr 11, 2025",
+      "time": "9:00 - 10:00",
+      "speaker": {
+        "name": ["Ana Luiza Nunes"],
+        "topic": "",
+        "image": ["/images/analuiza.webp"],
+        "advisor": "Jorge Poco",
+        "description": "",
+        "email": ["analuizanunes8@gmail.com"],
+        "links": {
+          "recording": true,
+          "slides": true
+        }
+      }
+    },
+    {
+      "date": "Fri, Apr 25, 2025",
+      "time": "9:00 - 10:00",
+      "speaker": {
+        "name": ["Mauro Diaz"],
+        "topic": "Aardvark: Composite Visualizations of Trees, Time-Series, and Images ",
+        "image": ["/images/mauro.webp"],
+        "advisor": "Jorge Poco",
+        "description": "This is one of the Best papers from IEEE VIS 2024. The focus is on using composite complementary visualization of evolution of cancer cells.",
+        "email": ["dany.mauro.diaz.e@gmail.com"],
+        "links": {
+          "recording": true,
+          "slides": true
+        }
+      }
+    },
+    {
+      "date": "Fri, May 09, 2025",
+      "time": "9:00 - 10:00",
+      "speaker": {
+        "name": ["Joel Christian Perca"],
+        "topic": "HORA 3D: Personalized Flood Risk Visualization as an Interactive Web Service",
+        "image": ["/images/felipe.webp"],
+        "advisor": "Jorge Poco",
+        "description": "This was choosen as the best full paper of EuroVIS 2024. It presents an interactive web app to visualize flooding risks in 3D por Austrian citizens and allows then to virtually explore relevant information about specific risk factors.",
+        "email": ["joelperca.vc@gmail.com"],
+        "links": {
+          "recording": true,
+          "slides": true
+        }
+      }
+    },
+    {
+      "date": "Fri, May 16, 2025",
+      "time": "9:00 - 10:00",
+      "speaker": {
+        "name": ["Luis Felipe Sante Taipe"],
+        "topic": "",
+        "image": [""],
+        "advisor": "Jorge Poco",
+        "description": "",
+        "email": ["luissante123@gmail.com"],
+        "links": {
+          "recording": true,
+          "slides": true
+        }
+      }
+    },
+    {
+      "date": "Thu, May 23, 2025",
+      "time": "9:00 - 10:00",
+      "speaker": {
+        "name": ["Leighton L. Estrada"],
+        "topic": "",
+        "image": ["/images/felipe.webp"],
+        "advisor": "Jorge Poco",
+        "description": "",
+        "email": ["estrada86@gmail.com"],
+        "links": {
+          "recording": true,
+          "slides": true
+        }
+      }
+    },
+    {
+      "date": "Fri, May 30, 2025",
+      "time": "9:00 - 10:00",
+      "speaker": {
+        "name": ["Fabrício Venturim","Esdras Cavalcanti"],
+        "topic": "PROWIS: A Visual Approach for Building, Managing, and Analyzing Weather Simulation Ensembles at Runtime",
+        "image": ["/images/fabriciodalviventurim.webp", "/images/esdrascavalcanti.webp"],
+        "advisor": "Jorge Poco",
+        "description": "This is one of the Best Paper Honorable Mentions IEEE VIS 2024",
+        "email": ["fabriciodalviventurim@gmail.com", "esdras@gmail.com"],
+        "links": {
+          "recording": true,
+          "slides": true
+        }
+      }
+    },
+    {
+      "date": "Fri, Jun 06, 2025",
+      "time": "9:00 - 10:00",
+      "speaker": {
+        "name": ["Paula Eduarda de Lima","Mariana Fernandes Rocha"],
+        "topic": "Causal Estimation of Memorisation Profiles",
+        "image": ["/images/pauladelima.webp", "/images/mariana.webp"],
+        "advisor": "Jorge Poco",
+        "description": "This is one of the Best Paper from ACL 2024. The goal of the paper is to propose a new efficient and principled method to estimate memorization in language models.",
+        "email": ["paulaeduardalima09@gmail.com", "mariana@gmail.com"],
+        "links": {
+          "recording": true,
+          "slides": true
+        }
+      }
+    },
+    {
+      "date": "Fri, Jun 13, 2025",
+      "time": "9:00 - 10:00",
+      "speaker": {
+        "name": ["Ximena","Gabrielle"],
+        "topic": "An image speaks a thousand words, but can everyone listen? On image transcreation for cultural relevance",
+        "image": ["/images/ximenagomez.webp", "/images/gabriellemascarelo.webp"],
+        "advisor": "Jorge Poco",
+        "description": "This paper explores the cultural adaptation of images in multimodal translation. The authors develop three pipelines using state-of-the-art generative models and create a two-part evaluation dataset: a concept set with 600 culturally coherent images and an application set with 100 real-world images. Human evaluation reveals that current image-editing models fail at this task but can be improved by leveraging LLMs and retrievers.",
+        "email": ["x09251740@gmail.com", "gabriellemascarelo@gmail.com"],
+        "links": {
+          "recording": true,
+          "slides": true
+        }
+      }
+    },
+    {
+      "date": "Fri, Jun 27, 2025",
+      "time": "9:00 - 10:00",
+      "speaker": {
+        "name": ["Zuilho","Bryan"],
+        "topic": "Probabilistic Inference in Language Models via Twisted Sequential Monte Carlo",
+        "image": ["/images/zuilhosegundo.webp", "/images/bryanmonteiro.webp"],
+        "advisor": "Jorge Poco",
+        "description": "This is one of the best papers from ICML 2024. ",
+        "email": ["segundozuilho@gmail.com", "bryansm00001@gmail.com"],
         "links": {
           "recording": true,
           "slides": true

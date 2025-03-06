@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
   	extend: {
+		maxWidth: {
+			'88': '352px',
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
