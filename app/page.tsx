@@ -11,7 +11,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { basePath, isFutureTalk, isRecentTalk, normalizeDate, Seminar } from "@/lib/utils";
+import { basePath, normalizeDate, Seminar } from "@/lib/utils";
 
 export default function Home() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -78,7 +78,7 @@ export default function Home() {
             <div className="pb-8">
               <h2 className="text-xl py-2 font-semibold">Talk Details</h2>
               <div className="flex gap-6 items-start text-sm border rounded-lg p-4 mb-4 bg-white shadow">
-                <div className="md:flex md:flex-row flex flex-col jus gap-x-4 gap-y-2 max-w-24 md:max-w-88 w-full">
+                <div className="md:flex md:flex-row flex flex-col justify-center gap-x-4 gap-y-2 max-w-24 md:max-w-88 w-full">
                   {seminar.speaker.image.map((img, index) => (
                     <img
                       key={index}
